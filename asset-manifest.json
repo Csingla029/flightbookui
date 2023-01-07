@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/flightbookui/static/css/main.990b98b1.css",
+    "main.js": "/flightbookui/static/js/main.631b1d63.js",
+    "index.html": "/flightbookui/index.html",
+    "main.990b98b1.css.map": "/flightbookui/static/css/main.990b98b1.css.map",
+    "main.631b1d63.js.map": "/flightbookui/static/js/main.631b1d63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.990b98b1.css",
+    "static/js/main.631b1d63.js"
+  ]
+}
