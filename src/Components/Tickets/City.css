@@ -1,0 +1,12 @@
+.components{
+    border:5px solid black;
+    /* color:purple; */
+    padding:10px;
+}
+.compcolor{
+    color:purple;
+}
+.components:hover{
+    background-color: aqua;
+    /* padding: 15px; */
+}

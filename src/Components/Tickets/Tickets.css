@@ -1,0 +1,50 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+input[type="radio"] {
+    margin-left:1.1rem;
+  }
+  .component1{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  hr{
+    width:45%;
+    background-color: black;
+  }
+  .textcolor{
+    color:purple;
+  }
+  .component2{
+    display:flex;
+    flex-direction: column;
+    padding-top: 4rem;
+  }
+  .compp2{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+  .component3{
+    display:flex;
+    /* flex-direction:row; */
+    /* border: 5px solid black; */
+    padding: 10px;
+    /* margin:10px; */
+    justify-content: space-around;
+
+  }
+  .arrow:hover{
+    color:red;
+    /* height:10px; */
+  }
+  h1:hover{
+    color:#F96666;
+    font-size:2.1rem;
+  }

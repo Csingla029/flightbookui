@@ -1,0 +1,7 @@
+.main-grid{
+    display: flex;
+    justify-content: center;
+    background-color: #F7F5F2;
+    padding:3rem 0;
+    height: 70vh;
+}
