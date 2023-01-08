@@ -1,7 +1,8 @@
 .main-section{
-    display: flex;
-    justify-content: space-between;
-    /* border: px solid black; */
+    display: grid;
+    /* justify-content: space-between; */
+    grid-template-columns:auto auto;
+    /* border: 3px solid black; */
     background-image: linear-gradient(to right, purple , red);
     color: white;
     /* height:12vh; */
@@ -12,8 +13,8 @@
 
   
 .section1{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns:auto auto auto;
 }
 .section2{
     display: flex;
@@ -40,10 +41,13 @@ li:hover{
     /* font-size:1.1rem; */
 }
 .colorsection4{
+    /* width: 100%; */
     border: 3px solid black;
+    /* border-right: 0px; */
 }
 .section4{
     display: flex;
+    /* width:100%; */
     
 
 }
@@ -54,6 +58,8 @@ li:hover{
 .section5{
     margin-top:0;
     border: 3px solid black;
+    /* display:flex; */
+    /* justify-content:flex-end; */
     /* box-sizing: border-box; */
 }
 .section6{
