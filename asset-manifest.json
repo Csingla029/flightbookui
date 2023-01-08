@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/flightbookui/static/css/main.8bb9c8e9.css",
+    "main.css": "/flightbookui/static/css/main.2dc5e59d.css",
     "main.js": "/flightbookui/static/js/main.6fbe9cee.js",
     "index.html": "/flightbookui/index.html",
-    "main.8bb9c8e9.css.map": "/flightbookui/static/css/main.8bb9c8e9.css.map",
+    "main.2dc5e59d.css.map": "/flightbookui/static/css/main.2dc5e59d.css.map",
     "main.6fbe9cee.js.map": "/flightbookui/static/js/main.6fbe9cee.js.map"
   },
   "entrypoints": [
-    "static/css/main.8bb9c8e9.css",
+    "static/css/main.2dc5e59d.css",
     "static/js/main.6fbe9cee.js"
   ]
 }
