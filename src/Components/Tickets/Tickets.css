@@ -1,6 +1,7 @@
 .main-container{
     display: flex;
     flex-direction: column;
+    /* flex-wrap: wrap; */
     /* justify-content: center; */
     /* align-items: center; */
 }
@@ -32,8 +33,10 @@ input[type="radio"] {
     justify-content:center;
   }
   .component3{
-    display:flex;
+    display:grid;
     /* flex-direction:row; */
+    /* grid-row: auto auto auto auto; */
+    grid-template-columns: auto auto auto auto auto auto;
     /* border: 5px solid black; */
     padding: 10px;
     /* margin:10px; */
@@ -44,7 +47,37 @@ input[type="radio"] {
     color:red;
     /* height:10px; */
   }
+  .compp2
+  {
+    height: 10vh;
+  }
   h1:hover{
     color:#F96666;
     font-size:2.1rem;
+  }
+  @media screen and (max-width: 800px) {
+    .component3 {
+      display:grid;
+      grid-template-columns: auto auto auto;
+      /* padding: 2rem; */
+    }
+  }
+  @media screen and (max-width:490px){
+    .compp2{
+      font-size:0.7rem;
+      /* align-items: space-around; */
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .component3 {
+      display:grid;
+      grid-template-columns: auto auto;
+      /* padding: 2rem; */
+    }
+  }
+  @media screen and (max-width:350px){
+    .compp2{
+      font-size:0.6rem;
+      align-items: space-around;
+    }
   }

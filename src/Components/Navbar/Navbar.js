@@ -15,7 +15,7 @@ const Navbar = () => {
                         <li>MANAGE</li>
                     </ul>   
                 </div>
-                <div>
+                <div className="colorsection4">
                     <ul className="section4">
                         <li>Deals</li>
                         <li>Flying With Us</li>
@@ -28,12 +28,13 @@ const Navbar = () => {
             </div>
             <div className="section5">
                 <ul className="section6">
-                    <li>elevate</li>
-                    <li>Sign In</li>
+                    <li className="signin">elevate</li>
+                    <li className="signin">Sign In</li>
                     <li>Sign Up</li>
                 </ul>
                 
             </div>
+            <div className="dropdown">⬇</div>
         </div>
     );
 };

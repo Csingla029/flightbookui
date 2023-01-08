@@ -1,5 +1,6 @@
 .components{
     border:5px solid black;
+    /* width:15%; */
     /* color:purple; */
     padding:10px;
 }
@@ -10,3 +11,19 @@
     background-color: aqua;
     /* padding: 15px; */
 }
+@media screen and (max-width: 800px) {
+    .components {
+     /* padding: 2rem; */
+     margin: 1rem;
+     font-size: 15px;
+      /* padding: 2rem; */
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .components {
+     /* padding: 2rem; */
+     margin: 0.7rem;
+     font-size: 15px;
+      /* padding: 2rem; */
+    }
+  }

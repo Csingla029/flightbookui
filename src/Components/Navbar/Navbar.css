@@ -4,7 +4,13 @@
     /* border: px solid black; */
     background-image: linear-gradient(to right, purple , red);
     color: white;
+    /* height:12vh; */
 }
+.dropdown{
+    display: none;
+}
+
+  
 .section1{
     display: flex;
     justify-content: space-around;
@@ -31,10 +37,15 @@ li{
 }
 li:hover{
     color:black;
-    font-size:1.1rem;
+    /* font-size:1.1rem; */
+}
+.colorsection4{
+    border: 3px solid black;
 }
 .section4{
     display: flex;
+    
+
 }
 /* .name{
     display: flex;
@@ -47,4 +58,71 @@ li:hover{
 }
 .section6{
     display: flex;
+}
+@media screen and (max-width: 1200px) {
+    .main-section {
+        font-size: 1rem;
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    .main-section {
+        font-size: 0.6rem;
+    }
+    .section3{
+        /* align-content:center; */
+        /* justify-items: center; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* width: 10%; */
+    }
+    .section5{
+        width: 100%;
+    }
+    
+  }
+@media screen and (max-width: 900px) {
+    .main-section{
+        display: grid;
+        grid-template-columns: 5fr 5fr 1fr;
+        /* border: 10px solid black; */
+    }
+    .bordersec3{
+        border:0px;
+    }
+    .colorsection4{
+        display: none;
+    }
+    .section5{
+        /* width: 100%; */
+       border:0px;
+    }
+    .colorsection4{
+        border: 0px;
+    }
+    .section2{
+        border:0px;
+    }
+    
+  }
+  @media screen and (max-width: 550px) {
+    .main-section{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .bordersec3{
+        display: none;
+    }
+} 
+@media screen and (max-width: 410px){
+    .main-section{
+        /* background-color: black; */
+        /* width: 100vw; */
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .signin{
+        display: none;
+    }
 }

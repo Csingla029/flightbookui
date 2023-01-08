@@ -3,5 +3,6 @@
     justify-content: center;
     background-color: #F7F5F2;
     padding:3rem 0;
-    height: 70vh;
+    /* height: 70vh; */
+    flex-wrap: wrap;
 }
